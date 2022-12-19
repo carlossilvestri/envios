@@ -5,19 +5,19 @@ version: "3"
 services:
 
 #Aquí indicamos el nombre que queramos
-  mi_servicio_apache_web_envios_1:
+  mi_servicio_apache_web_envios_2:
     #Indicamos la carpeta donde guardamos el Docker File
     build: 
       context: .
     #Eliminamos esta línea que se sustituye por el dockerfile
     #image: php:7.0-apache
-    container_name: apache-container-web-envios-1
+    container_name: apache-container-web-envios-2
     volumes:
       #Carpeta donde guardaremos los archivos web : carpeta interna de Docker
       - ./:/var/www/html
     expose:
       #Puerto que queremos exponer a para poder compartirlo con otros contenedores
-      - 4500
+      - 4501
     ports:
       # Puerto de nuestra máquina : puerto dentro de Docker (siempre va a ser el 80 para apache o 443 para SSL)
-      - '4500:80'
+      - '4501:80'

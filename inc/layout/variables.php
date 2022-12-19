@@ -1,6 +1,6 @@
 <?php
    //Web 1 (Web oculta) 11855. Web 2 (Web Normal) normal 931350811
-   $phone = "11855";
+   $phone = "931350811";
    $file = basename($_SERVER['PHP_SELF']);
    $page = str_replace(".php", "", $file); 
    $mainTitle = "Envíos Express";
