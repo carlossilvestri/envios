@@ -6,27 +6,9 @@ include 'inc/layout/head.php';
 
 <body>
 
-	<header class="header">
-		<div class="container">
-			<div class="header-content">
-				<div class="logo-wrapper">
-					<a href="#" style="text-decoration:none">
-						<h3 class="logo-header"><span class="header-name">Envíos Express | </span><span class="logo-color">Inicio</span></h3>
-					</a>
-				</div>
-				<div class="nav-wrapper nav-wrapper-d">
-					<div class="nav-content">
-						<ul class="nav">
-							<li class="active"><a href="./../inicio">Inicio</a></li>
-							<li><a href="./../servicios">Servicios de envío</a></li>
-							<li><a href="./../contacto">Contacto</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="mobile-nav-trigger"><span class="material-icons-two-tone">menu</span></div>
-			</div>
-		</div>
-	</header>
+	<?php
+	include 'inc/layout/header.php';
+	?>
 	<section class="c-s hero-section">
 		<div class="container">
 			<div class="hero-content">
@@ -34,8 +16,8 @@ include 'inc/layout/head.php';
 					<div class="col-lg-6 dp">
 						<div class="hero-text text-center">
 							<span class="hero-subtitle">Envíos rápidos con</span>
-							<h1 class="hero-title"><span class="primary-accent">Envíos Express</span></h1>
-							<p class="hero-slogan">Con envíos express, tendrás tu paquete en tan solo 24h a nivel nacional. Todos los envíos son tratados con sumo cuidado para garantizar la perfecta entrega de los mismos. Infórmese aquí.</p>
+							<h1 class="hero-title"><span class="primary-accent domain"></span></h1>
+							<p class="hero-slogan">Con <span class="domain"></span>, tendrás tu paquete en tan solo 24h a nivel nacional. Todos los envíos son tratados con sumo cuidado para garantizar la perfecta entrega de los mismos. Infórmese aquí.</p>
 							<div class="button-wrapper text-center">
 								<a class="button contact-modal-trigger">Realizar envío</a>
 							</div>
@@ -288,53 +270,9 @@ include 'inc/layout/head.php';
 		</div>
 	</section>
 
-	<footer class="footer">
-		<div class="container">
-			<div class="footer-top">
-				<div class="row dm">
-					<div class="col-lg-4 col-12 dp mb-om">
-						<div class="footer-col footer-col-about">
-							<div class="footer-logo">
-								<h3 class="logo-header" style="color:white;font-size:2em;">Envíos Express</h3>
-							</div>
-							<p class="footer-description">Con envíos express, tendrás tu paquete en tan solo 24h a nivel nacional. Todos los envíos son tratados con sumo cuidado para garantizar la perfecta entrega de los mismos. Infórmese aquí.</p>
-						</div>
-					</div>
-					<div class="col-lg-8 col-12 dp">
-						<div class="row">
-							<div class="col-lg-4 col-12 mb-om">
-								<div class="footer-col">
-									<h4 class="footer-col-title">Servicios especiales</h4>
-									<ul class="footer-nav">
-										<li><span class="material-icons-two-tone footer-nav-icon">chevron_right</span><a href="servicios#ciudad">Envio de containers</a></li>
-										<li><span class="material-icons-two-tone footer-nav-icon">chevron_right</span><a href="servicios#camiones">Envíos internacionales</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-lg-4 col-12 mb-om">
-								<div class="footer-col">
-									<h4 class="footer-col-title">Enlace rápido</h4>
-									<ul class="footer-nav">
-										<li><span class="material-icons-two-tone footer-nav-icon">chevron_right</span><a href="politica-de-privacidad">Política De Privacidad</a></li>
-										<li><span class="material-icons-two-tone footer-nav-icon">chevron_right</span><a href="aviso-legal">Aviso Legal</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="copyright-content">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 text-center">
-						<p>© 2022 Envíos Express – Todos Los Derechos Reservados.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<?php
+	include 'inc/layout/footer.php';
+	?>
 	<div id="contact-modal-wrapper" class="contact-modal-wrapper mfp-hide  animate__animated">
 		<div id="close-modal"><span class="material-icons-two-tone">cancel</span></div>
 		<div class="contact-modal-content">
@@ -374,12 +312,8 @@ include 'inc/layout/head.php';
 		</div>
 	</div>
 </body>
-<!-- JS -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-<script type="text/javascript" src="js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
-<script type="text/javascript" src="js/jquery.countTo.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<?php
+include 'inc/layout/scripts.php';
+?>
 
 </html>

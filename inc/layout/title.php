@@ -1,0 +1,1 @@
+<title><?php echo $titles[$file] ?></title>
