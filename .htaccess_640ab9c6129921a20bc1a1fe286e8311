@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteCond %{QUERY_STRING} ^d=(.*)$ [NC]
+RewriteRule ^index.php$ index.php?d=%2 [QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-l [NC]
+RewriteCond %{REQUEST_FILENAME} !-f [NC]
+RewriteCond %{REQUEST_FILENAME} !-d [NC]
+RewriteCond %{REQUEST_URI} !^/index.php
+
+RewriteRule ^(.+)$ ./tarp_640ab9c6129921a20bc1a1fe286e8311/index.php/$1 [QSA]
