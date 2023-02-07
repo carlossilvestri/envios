@@ -33,7 +33,7 @@ include 'inc/layout/head.php';
 			<div class="contact-call-cta-button-wrapper" style="text-align:center;padding-top:-20px;">
 				<h2 class="section-title" style="font-size:1.5em;">Teléfono de contacto <span class="primary-accent">24h</span></h2>
 				<a class="button boton_custom_llamada" href="tel:<?php echo $phone; ?>"> <i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span><?php echo $phone; ?></span></a>
-				<p class="text-legal">Servicio de Información telefónica prestado por Duck Telecomunicaciones S.L. 3,03€ impuestos incluidos es el coste por minuto de esta llamada</p>
+				<p class="text-legal"><?php echo $footerInformation ?></p>
 			</div>
 			<div class="section-content section-plans-content">
 				<div class="section-title-wrapper text-center">
@@ -139,7 +139,7 @@ include 'inc/layout/head.php';
 				<div class="modal-end-cta-button-w">
 					<p style="margin-bottom:-1px;">Haga click en el botón para llamar</p>
 					<a class="button boton_custom_llamada" href="tel:<?php echo $phone; ?>"> <i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span>Llamar Ahora</span></a>
-					<p class="text-legal">Puedes llamar al teléfono <?php echo $phone; ?> de forma totalmente gratuita y le atenderemos sin compromiso.</p>
+					<p class="text-legal"><?php echo $footerInformation ?></p>
 				</div>
 			</div>
 		</div>

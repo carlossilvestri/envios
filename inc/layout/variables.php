@@ -2,7 +2,8 @@
    //Web 1 (Web oculta) 11828. Web 2 (Web Normal) normal 931350811
    $phone = "11828";
    $file = basename($_SERVER['PHP_SELF']);
-   $page = str_replace(".php", "", $file); 
+   $page = str_replace(".php", "", $file);
+   $footerInformation = "Servicio de Información telefónica prestado por Duck Telecomunicaciones S.L. 3,03€ impuestos incluidos es el coste por minuto de esta llamada"; 
    $mainTitle = "Envíos Express";
     $titles = [
         "index.php" =>  $mainTitle . " - Inicio",
