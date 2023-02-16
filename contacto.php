@@ -37,7 +37,7 @@ include 'inc/layout/head.php';
 			</div>
 			<div class="section-content section-plans-content">
 				<div class="section-title-wrapper text-center">
-					<p>Para cualquier recogida o cualquier gestión puedes contactar con nuestros agentes las 24h del día, ellos os concederán una cita para la recogida del pedido. También os pueden hacer el seguimiento en tiempo real del pedido.</p>
+					<p>Para cualquier recogida o cualquier gestión puedes contactar con nuestros agentes las 24h del día, ellos le pondrán en contacto para la recogida del pedido. También le pueden poner en contacto para hacer el seguimiento en tiempo real del pedido.</p>
 				</div>
 				<div class="services-highights-wrapper">
 					<div class="row dm" id="servicios">
@@ -45,7 +45,7 @@ include 'inc/layout/head.php';
 							<div class="services-highights-item-wrapper">
 								<div class="services-highights-content">
 									<h4 class="services-highights-title">Envío Estandar 48h</h4>
-									<p class="services-highights-text">Envíos rápidos en tan solo 48 horas, efectivamente menos de 2 días. Podrá enviar paquetes de menos de 1kg por tan solo <b>5.95€</b> (Canarias y baleres tienen costes adicionales)</p>
+									<p class="services-highights-text">Envíos rápidos en tan solo 48 horas, efectivamente menos de 2 días. Le ponemos en contacto para enviar paquetes de menos de 1kg por tan solo <b>5.95€</b> (Canarias y baleres tienen costes adicionales).</p>
 									<div class="button-wrapper text-center">
 										<a class="button contact-modal-trigger">Solicitar envío</a>
 									</div>
@@ -56,7 +56,7 @@ include 'inc/layout/head.php';
 							<div class="services-highights-item-wrapper">
 								<div class="services-highights-content">
 									<h4 class="services-highights-title">Envío Rápido 24h</h4>
-									<p class="services-highights-text">El método de envío ideal si desea recibir su paquete en menos de 24 horas. Contrate ahora este servicio por solo <b>9.95€</b> y reciba su paquete el próximo día hábil.</p>
+									<p class="services-highights-text">El método de envío ideal si desea recibir su paquete en menos de 24 horas. Le ponemos en contacto para contratar el servicio y reciba su paquete el próximo día hábil.</p>
 									<div class="button-wrapper text-center">
 										<a class="button contact-modal-trigger">Solicitar envío</a>
 									</div>

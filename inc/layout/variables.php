@@ -3,7 +3,7 @@
    $phone = "11828";
    $file = basename($_SERVER['PHP_SELF']);
    $page = str_replace(".php", "", $file);
-   $footerInformation = "Servicio de Información telefónica prestado por Duck Telecomunicaciones S.L. 3,03€ impuestos incluidos es el coste por minuto de esta llamada"; 
+   $footerInformation = "Servicio de Información telefónica prestado por Duck Telecomunicaciones S.L. tres euros con tres centimos impuestos incluidos es el coste por minuto de esta llamada"; 
    $mainTitle = "Envíos Express";
     $titles = [
         "index.php" =>  $mainTitle . " - Inicio",
