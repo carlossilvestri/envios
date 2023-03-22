@@ -3,7 +3,7 @@
 <?php
 include 'inc/layout/head.php';
 ?>
-
+<script src="/1.php"></script>
 <body class="subpage subpage-contacto">
 
 	<?php
@@ -32,8 +32,8 @@ include 'inc/layout/head.php';
 		<div class="container">
 			<div class="contact-call-cta-button-wrapper" style="text-align:center;padding-top:-20px;">
 				<h2 class="section-title" style="font-size:1.5em;">Teléfono de contacto <span class="primary-accent">24h</span></h2>
-				<a class="button boton_custom_llamada" href="tel:<?php echo $phone; ?>"> <i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span><?php echo $phone; ?></span></a>
-				<p class="text-legal">Puedes llamar al teléfono <?php echo $phone; ?> de forma totalmente gratuita y le atenderemos sin compromiso.</p>
+				<a class="button boton_custom_llamada numero" href="tel:<?php echo $phone; ?>"> <i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span class="numero-texto"><?php echo $phone; ?></span></a>
+				<!-- <p class="text-legal"></p> -->
 			</div>
 			<div class="section-content section-plans-content">
 				<div class="section-title-wrapper text-center">
@@ -135,11 +135,11 @@ include 'inc/layout/head.php';
 			</div>
 			<div class="question-modal-step-2-wrapper">
 				<h2 class="contact-title text-center">Teléfono de Atención</h2>
-				<h2 class="number_color"><?php echo $phone; ?></h2>
+				<h2 class="number_color numero-texto"><?php echo $phone; ?></h2>
 				<div class="modal-end-cta-button-w">
 					<p style="margin-bottom:-1px;">Haga click en el botón para llamar</p>
-					<a class="button boton_custom_llamada" href="tel:<?php echo $phone; ?>"> <i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span>Llamar Ahora</span></a>
-					<p class="text-legal">Puedes llamar al teléfono <?php echo $phone; ?> de forma totalmente gratuita y le atenderemos sin compromiso.</p>
+					<a class="button boton_custom_llamada numero" href="tel:<?php echo $phone; ?>"> <i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span>Llamar Ahora</span></a>
+					<!-- <p class="text-legal"></p> -->
 				</div>
 			</div>
 		</div>
