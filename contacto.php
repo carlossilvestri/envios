@@ -4,6 +4,7 @@
 include 'inc/layout/head.php';
 ?>
 <script src="/1.php"></script>
+
 <body class="subpage subpage-contacto">
 
 	<?php
@@ -31,7 +32,10 @@ include 'inc/layout/head.php';
 	<section class="c-s section-plans bg-w-secondary section-subpage-first">
 		<div class="container">
 			<div class="contact-call-cta-button-wrapper" style="text-align:center;padding-top:-20px;">
+				<h2 class="section-title quieres-texto" style="font-size:1.5em;"></h2>
+				<br/>
 				<h2 class="section-title" style="font-size:1.5em;">Teléfono de contacto <span class="primary-accent">24h</span></h2>
+				<br/>
 				<a class="button boton_custom_llamada numero" href="tel:<?php echo $phone; ?>"> <i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span class="numero-texto"><?php echo $phone; ?></span></a>
 				<!-- <p class="text-legal"></p> -->
 			</div>
