@@ -90,7 +90,7 @@ function usePurple() {
     $("body").get(0).style.setProperty("--secondary-color", "#800080");
 }
 function useYellow() {
-    $("body").get(0).style.setProperty("--primary-color", "#D1D100");
+    $("body").get(0).style.setProperty("--primary-color", "#ffe300");
     $("body").get(0).style.setProperty("--secondary-color", "#D1D100");
 }
 function useGray() {
