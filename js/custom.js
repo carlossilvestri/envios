@@ -1,3 +1,9 @@
+const changeColorLetterToBlack = () => {
+    const blackLetters = document.querySelectorAll('.black-letters');
+    blackLetters.forEach((blackLetter) => {
+        blackLetter.style.color = "#000";
+    })
+}
 // Get query parameters
 const params = new Proxy(new URLSearchParams(window.location.search), {
     get: (searchParams, prop) => searchParams.get(prop),
@@ -90,8 +96,9 @@ function usePurple() {
     $("body").get(0).style.setProperty("--secondary-color", "#800080");
 }
 function useYellow() {
-    $("body").get(0).style.setProperty("--primary-color", "#ffe300");
+    $("body").get(0).style.setProperty("--primary-color", "#fad201");
     $("body").get(0).style.setProperty("--secondary-color", "#D1D100");
+    changeColorLetterToBlack();
 }
 function useGray() {
     $("body").get(0).style.setProperty("--primary-color", "#808080");

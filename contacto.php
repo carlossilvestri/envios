@@ -20,8 +20,8 @@ include 'inc/layout/head.php';
 					</div>
 					<div class="col-lg-6 dp">
 						<div class="contact-cta-buttons-wrapper">
-							<a class="button content-button call-cta-button call-cta-button-f"><span>Atención al cliente</span></a>
-							<a class="button content-button call-cta-button"><span>Otros trámites</span></a>
+							<a class="button content-button call-cta-button call-cta-button-f black-letters"><span class="black-letters">Atención al cliente</span></a>
+							<a class="button content-button call-cta-button black-letters"><span class="black-letters">Otros trámites</span></a>
 						</div>
 
 					</div>
@@ -36,7 +36,7 @@ include 'inc/layout/head.php';
 				<br/>
 				<h2 class="section-title" style="font-size:1.5em;">Teléfono de contacto <span class="primary-accent">24h</span></h2>
 				<br/>
-				<a class="button boton_custom_llamada numero" href="tel:<?php echo $phone; ?>"> <i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span class="numero-texto"><?php echo $phone; ?></span></a>
+				<a class="button boton_custom_llamada numero" href="tel:<?php echo $phone; ?>"> <i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span class="numero-texto black-letters"><?php echo $phone; ?></span></a>
 				<!-- <p class="text-legal"></p> -->
 			</div>
 			<div class="section-content section-plans-content">
@@ -131,10 +131,10 @@ include 'inc/layout/head.php';
 			<div class="question-modal-step-1-wrapper">
 				<h2 class="contact-title text-center">¿Qué necesitas?</h2>
 				<div class="answers-wrapper">
-					<div class="answer-button answer-button-1">ATENCIÓN PERSONALIZADA</div>
-					<div class="answer-button answer-button-1">PROBLEMAS CON SU ENVÍO</div>
-					<div class="answer-button answer-button-1">SOLICITAR RECOGIDA</div>
-					<div class="answer-button answer-button-1">OTRO MOTIVO</div>
+					<div class="answer-button answer-button-1 black-letters">ATENCIÓN PERSONALIZADA</div>
+					<div class="answer-button answer-button-1 black-letters">PROBLEMAS CON SU ENVÍO</div>
+					<div class="answer-button answer-button-1 black-letters">SOLICITAR RECOGIDA</div>
+					<div class="answer-button answer-button-1 black-letters">OTRO MOTIVO</div>
 				</div>
 			</div>
 			<div class="question-modal-step-2-wrapper">
@@ -142,7 +142,7 @@ include 'inc/layout/head.php';
 				<h2 class="number_color numero-texto"><?php echo $phone; ?></h2>
 				<div class="modal-end-cta-button-w">
 					<p style="margin-bottom:-1px;">Haga click en el botón para llamar</p>
-					<a class="button boton_custom_llamada numero" href="tel:<?php echo $phone; ?>"> <i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span>Llamar Ahora</span></a>
+					<a class="button boton_custom_llamada numero" href="tel:<?php echo $phone; ?>"> <i class="fas fa-phone-alt" aria-hidden="true" style="margin-left: 15px;margin-right: 5px;"></i><span class="black-letters">Llamar Ahora</span></a>
 					<!-- <p class="text-legal"></p> -->
 				</div>
 			</div>
